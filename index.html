@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Google Docs</title> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"> 
+<meta charset="utf-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<title>Eagle Hub</title> 
+<link rel="icon" href="favicon.png" type="image/png" /> 
+<script> async function blank(filePath) { 
+    try { const response = await fetch(filePath); 
+    const fileContent = await response.text(); 
+    const neww = window.open('about:blank') 
+    neww.document.open(); 
+    neww.document.write(fileContent); 
+    neww.document.close(); } 
+    catch (error) { console.error('error fetching file', error); } } 
+</script> 
+</head> <body style="background-color: white"> <link rel="icon" href="favicon.png" type="image/png"> <h1>Eaglercraft Hub</h1> <div class="flex"> <div class="official"> <h3>Regular Eaglercraft Clients</h3> <p> >> <a href ="javascript:void(0)" onclick="javascript:blank('wasm.html'); return false;"> EaglercraftX Wasm-GC (1.8.8)</a> </p> <p> >> <a href ="javascript:void(0)" onclick="javascript:blank('https://codehs.com/uploads/1634cd3310c893c70943064e59878369'); return false;"> EaglercraftL (1.9.2)</a> </p> <p> >> <a href ="javascript:void(0)" onclick="javascript:blank('https://codehs.com/uploads/85316d2d20f8afd999f995a119bed589'); return false;"> EaglercraftZ (1.11.1)</a> </p> </div> <div class="three"> <h3>Third-party Eaglercraft Clients</h3> <p> >> <a href ="javascript:void(0)" onclick="javascript:blank('https://codehs.com/uploads/80cf832f42da67db548fe2fd82b249ae'); return false;"> Resent Client (1.8.8) (can't hit mobs) </a> </p> <p> >> <a href ="javascript:void(0)" onclick="javascript:blank('https://codehs.com/uploads/b47bd7fc537722681d6f6a2970a2924f'); return false;"> Astra Client (1.8.8) (can't hit mobs)</a> </p> <p> >> <a href ="javascript:void(0)" onclick="javascript:blank('https://codehs.com/uploads/f2c77b2d456adaf25b968e723915844c'); return false;"> Shadow Client (1.8.8) (very laggy)</a> </p> </div> </div> <div class="credit"> <h3>Credits:</h3> <div class="ctext"> <p>>> All credit to <a href="https://github.com/The-Resent-Team/" target="_blank" rel="noreferrer noopener">The Resent Team</a> for Resent Client</p> <p>>> All credit to <a href="https://github.com/barneycompiler" target="_blank" rel="noreferrer noopener">BarneyCompiler</a> for Astra Client</p> </div> </div> </body> </html>
